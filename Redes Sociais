@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Redes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6441a5, #2a0845);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    .card {
+      max-width: 400px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #d34196;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #fff;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 12px;
+      font-size: 18px;
+      transition: opacity 0.3s;
+    }
+    .links a:hover {
+      opacity: 0.85;
+    }
+    .links i {
+      font-size: 20px;
+    }
+    /* Cores oficiais */
+    .twitch { background: #9146ff; }
+    .youtube { background: #ff0000; }
+    .instagram { background: #e4405f; }
+    .discord { background: #5865f2; }
+    .tiktok { background: #070000; }
+    .pix { background: #00bfa5; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://i.postimg.cc/6QhTHs3b/avatar-500x500-c.jpg" alt="Avatar" class="avatar">
+    <h1>Minhas Redes</h1>
+    <div class="links">
+      <a href="https://twitch.tv/pjulialves" target="_blank" class="twitch"><i class="fab fa-twitch"></i> Twitch</a>
+      <a href="https://youtube.com/@Pjulialves" target="_blank" class="youtube"><i class="fab fa-youtube"></i> YouTube</a>
+      <a href="https://instagram.com/pjulialves_" target="_blank" class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://discord.com/invite/Wx4stsddcS" target="_blank" class="discord"><i class="fab fa-discord"></i> Discord</a>
+      <a href="https://www.tiktok.com/@pjulialves" target="_blank" class="tiktok"><i class="fab fa-tiktok"></i> TikTok</a>
+      <a href="https://www.streamar.com.br/pjulialves" target="_blank" class="pix"><i class="fa-solid fa-money-bill-wave"></i> Apoie via Pix</a>
+   
+    </div>
+  </div>
+</body>
+</html>
