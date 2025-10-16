@@ -2,7 +2,7 @@
 
 ## 🌐 Projeto Online
 Este projeto está no ar e pode ser visualizado em: 
-[**Clique aqui para ver a página de links**](https://redes-sociais-p-julialves.vercel.app)
+[**Clique aqui para ver a página de links**](https://pjulialves.com.br/)
 
 ---
 ## 🚀 Como rodar o projeto localmente
